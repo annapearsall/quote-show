@@ -1,0 +1,56 @@
+/* Styles  */
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Extend full height of browser  */
+  height: 100vh;
+  background-image: url(https://000681217.codepen.website/assets/coffee1.jpg);
+  
+
+  /* image always covers the entire container, but is cut off */
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5vmin;
+  text-align: center;
+
+  /* Add contrast to text */
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  background: #49a0ae;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: #175a65;
+}
+
+.icon {
+  height: 30px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 15px;
+  padding: 5px;
+  border-radius: 8px;
+}
